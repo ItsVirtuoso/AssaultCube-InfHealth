@@ -4,8 +4,10 @@
 DWORD pid;
 DWORD healthAdress = 0x007F55E4;
 
+
 int main()
 {
+	SetConsoleTitleA("AC Infinite Health");
 	if (!GetWindowThreadProcessId(FindWindowA(NULL, "AssaultCube"), &pid))
 	{
 		std::cout << "Failed to obtain Process ID, womp womp." << std::endl;
@@ -28,14 +30,14 @@ int main()
 	}
 
 
-	int newHealth = 2500;
+	int newHealth = 2350;
 
 	while (true)
 	{
 
 		if (WriteProcessMemory(hProcess, (LPVOID)healthAdress, &newHealth, sizeof(newHealth), NULL))
 		{
-			std::cout << "Health updated to 2500!" << std::endl;
+			std::cout << "Health updated to 2350!" << std::endl;
 		}
 		else
 		{
@@ -43,7 +45,7 @@ int main()
 			Sleep(2000);
 			return 1;
 		}
-		Sleep(250);
+		Sleep(1000);
 	}
 
 	CloseHandle(hProcess);
