@@ -22,6 +22,6 @@ Feel free to use this in whatever way you want, as long as it does not negativel
 
 ![Assault Cube](https://github.com/ItsVirtuoso/AssaultCube-InfHealth/blob/main/AssaultCube.png?raw=true)
 
-![CMD](https://github.com/ItsVirtuoso/AssaultCube-InfHealth/blob/main/Health CMD.png?raw=true)
+![CMD](https://github.com/ItsVirtuoso/AssaultCube-InfHealth/blob/main/HealthCMD.png?raw=true)
 
 
