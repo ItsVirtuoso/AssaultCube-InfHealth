@@ -2,7 +2,7 @@
 #include <Windows.h>
 
 DWORD pid;
-DWORD healthAdress = 0x008D69AC;
+DWORD healthAdress = 0x00983D64;
 
 
 int main()
